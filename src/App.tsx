@@ -1,0 +1,24 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import HeartMapping from './pages/HeartMapping'
+import FAQ from './pages/FAQ'
+import Oferte from './pages/Oferte'
+import Despre from './pages/Despre'
+import Contact from './pages/Contact'
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/heartmapping" element={<HeartMapping />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/oferte" element={<Oferte />} />
+        <Route path="/despre" element={<Despre />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
