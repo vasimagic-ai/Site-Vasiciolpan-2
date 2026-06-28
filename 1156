@@ -1,0 +1,10 @@
+1. Import the new FAQ component in App.tsx and add a route: path="/faq" element={<FAQ />}
+
+2. In the navigation component (Navbar or Header), add a new nav link:
+   Label: "FAQ"
+   Path: /faq
+   Position: between "HeartMapping™" and "Oferte" (or at end of nav, before "Contact")
+
+3. On the HeartMapping™ method page, add a link at the bottom:
+   Text: "Ai întrebări despre HeartMapping? Vezi FAQ-ul complet →"
+   Link: /faq
