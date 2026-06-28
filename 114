@@ -1,0 +1,14 @@
+1. Download the following image from the live WordPress site and save it to src/assets/images/:
+   https://vasiciolpan.coach/wp-content/uploads/2025/11/vasile-1541x2048-1-771x1024.png
+   Save as: vasi-ciolpan-photo.png
+
+2. Download the two certification images:
+   https://vasiciolpan.coach/wp-content/uploads/2025/11/Diploma-Vasile-Ciolpan-scaled-e1642154077583-1024x1013-1.jpeg
+   Save as: diploma-vasile-ciolpan.jpeg
+
+   https://vasiciolpan.coach/wp-content/uploads/2025/11/ICA-Agile-Vasi-Ciolpan-e1642154201822-1024x757-1.png
+   Save as: ica-agile-vasi-ciolpan.png
+
+3. In Despre.tsx, replace any placeholder avatar or illustration with the <img> tag pointing to vasi-ciolpan-photo.png. Apply rounded-2xl and object-cover classes, constrained to max-w-sm.
+
+4. Add a "Certificări" subsection below the bio text that displays the two certification images side by side (md:flex-row, gap-4), each with a caption.
