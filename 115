@@ -1,0 +1,14 @@
+In Contact.tsx, read the URL query parameter "program" on mount using useSearchParams() from React Router.
+
+If the param exists, pre-populate a hidden field or display a contextual message at the top of the form:
+"Ai selectat programul: [human-readable program name]"
+
+Create a lookup map for param → display name, for example:
+  hm-dating-diagnostic → HeartMapping Dating – Diagnostic Emoțional
+  hm-dating-relatie-cu-tine → HeartMapping – Relația cu Tine
+  hm-dating-lab-grup → HeartMapping – Dating Lab (Grup)
+  hm-relatii-diagnostic → HeartMapping Relații – Diagnostic Emoțional
+  hm-relatii-cu-partenerul → HeartMapping – Relația cu Partenerul
+  hm-relatii-laborator-grup → HeartMapping – Laboratorul de Relații
+
+Also add a visible dropdown field "Programul dorit" in the contact form so users can also select it manually if they didn't arrive via a product CTA.
