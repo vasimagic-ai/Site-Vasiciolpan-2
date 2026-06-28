@@ -1,0 +1,15 @@
+In Despre.tsx, update the main bio text section with the following content. Keep all existing styling, layout, and the HeartMapSVG component in place — only replace the text content:
+
+Main bio paragraph:
+"Sunt Vasi Ciolpan – om, coach, tată. Și, da, zâmbesc când spun asta pentru că mă definesc ca „om", în toată accepțiunea cuvântului – cu slăbiciuni și tipare, cu aspirații și eforturi pentru atingerea lor.
+
+Sunt coach acreditat din 2018 și lucrez cu oamenii în această calitate de aproximativ 4 ani. Mă definește acest rol pentru că, în fapt, dintotdeauna mi-a plăcut să lucrez cu oamenii și am făcut-o, din pozițiile pe care le-am ocupat în decursul vieții mele profesionale.
+
+Sunt coach, cu certitudinea și bucuria de a-mi fi împlinit menirea și de a fi găsit acel stil propriu de lucru, care a dat rezultate de fiecare dată, în procesele transformaționale cu cei cu care lucrez."
+
+Certifications list (replace existing):
+- HeartMapping™ Certified Coach
+- Metodologia ADAPT
+- Specialist în activitatea de coaching (acreditat ANC)
+- HeartMapping Mindfulness Practitioner
+- Coach acreditat ICA Agile (din 2018)
