@@ -1,0 +1,12 @@
+In Home.tsx, find the testimonials section and replace the existing testimonial data with these three real testimonials:
+
+1. Name: David Birtaș | Role: Antreprenor
+   Text: "Vasile m-a convins din prima! Se zice ca viata se schimba in functie de intrebarile care ti le pui. Cand ramai fara intrebari bune, Vasile stie ce sa te intrebe. Iar raspunsul este de cele mai multe ori revelator pentru situatia in care te afli."
+
+2. Name: Marian Opran | Role: Formator Magic-Coaching
+   Text: "Vasi este unul dintre primii absolvenți ai școlii de coaching pe care am lansat-o în 2016. Încă de la început am fost surprins de entuziasmul pe care un om cu experiența lui de viață îl avea pentru a se cunoaște și a-și crește performanța."
+
+3. Name: Diana G | Role: Nutriționist
+   Text: "Vasi este coachul nostru de familie! Eu și soțul meu avem o familie superbă, împlinită și avem trei copilași sănătoși și ne iubim tare mult. Vasi ne-a ajutat foarte mult în perioadele mai puțin frumoase din viața noastră pe care le-am depășit cu succes."
+
+Each testimonial should show 5 stars. Keep the existing component structure and styling.
