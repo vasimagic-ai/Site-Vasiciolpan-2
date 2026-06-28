@@ -1,0 +1,19 @@
+Refactor Oferte.tsx to display products in three sections:
+
+SECTION 1 — Title: "HeartMapping Dating"
+Description: "Pentru persoane singure care vor claritate în alegerea partenerului"
+Show products: hm-dating-diagnostic, hm-dating-relatie-cu-tine, hm-dating-lab-grup
+Use a warm yellow/gold accent color (#D4A853 or the existing earth/terracotta token) to differentiate this track.
+
+SECTION 2 — Title: "HeartMapping Relații Împlinitoare"  
+Description: "Pentru cupluri care vor să aprofundeze intimitatea și să rezolve conflictele"
+Show products: hm-relatii-diagnostic, hm-relatii-cu-partenerul, hm-relatii-laborator-grup
+Use a purple/sage accent to differentiate this track.
+
+SECTION 3 — Title: "Sesiuni individuale și tehnici hipnotice"
+Description: "Sesiuni punctuale pentru acces rapid la resurse interioare"
+Show products: all individual session and hypnosis products in a simple pricing table layout.
+
+For products with originalPrice, show the original price crossed out next to the current price.
+For group products, display the groupSize field prominently as a badge: "Maxim 12 participanți".
+Each product card should have a CTA button that links to /contact with a URL query param, e.g. /contact?program=hm-dating-diagnostic
