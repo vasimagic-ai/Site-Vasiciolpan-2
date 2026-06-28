@@ -93,6 +93,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-charcoal text-center mb-12">Ce spun clienții</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              {
+                name: 'David Birtaș',
+                role: 'Antreprenor',
+                text: 'Vasile m-a convins din prima! Se zice ca viata se schimba in functie de intrebarile care ti le pui. Cand ramai fara intrebari bune, Vasile stie ce sa te intrebe. Iar raspunsul este de cele mai multe ori revelator pentru situatia in care te afli.',
+              },
+              {
+                name: 'Marian Opran',
+                role: 'Formator Magic-Coaching',
+                text: 'Vasi este unul dintre primii absolvenți ai școlii de coaching pe care am lansat-o în 2016. Încă de la început am fost surprins de entuziasmul pe care un om cu experiența lui de viață îl avea pentru a se cunoaște și a-și crește performanța.',
+              },
+              {
+                name: 'Diana G',
+                role: 'Nutriționist',
+                text: 'Vasi este coachul nostru de familie! Eu și soțul meu avem o familie superbă, împlinită și avem trei copilași sănătoși și ne iubim tare mult. Vasi ne-a ajutat foarte mult în perioadele mai puțin frumoase din viața noastră pe care le-am depășit cu succes.',
+              },
+            ].map((t) => (
+              <div key={t.name} className="bg-cream rounded-2xl p-6 border border-stone-100">
+                <div className="flex gap-0.5 text-earth mb-4">{'★★★★★'}</div>
+                <p className="text-stone-700 text-sm leading-relaxed mb-6">"{t.text}"</p>
+                <div>
+                  <p className="font-semibold text-charcoal">{t.name}</p>
+                  <p className="text-stone-400 text-sm">{t.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 px-4 bg-cream text-center">
         <h2 className="text-2xl font-bold mb-4">Gata să începi?</h2>
