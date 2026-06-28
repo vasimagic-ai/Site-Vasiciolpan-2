@@ -1,0 +1,10 @@
+On the Home page, add a prominent section/card after the HeartMapping programs section:
+
+Title: "🧠 Testul ADAPT"
+Badge: "⭐ Gratuit"
+Description: "Descoperă-ți stilul de personalitate bazat pe Analiza Tranzacțională. Primește o analiză detaliată a profilului tău psihologic și recomandări personalizate pentru dezvoltare."
+Stats: "✓ 40 de întrebări  ✓ Analiză completă  ✓ Rezultate instant  ✓ 100% Gratuit"
+CTA Button: "Începe Testul ADAPT Acum" → href="https://vasiciolpan.coach/adapt/" target="_blank"
+Social proof text: "Peste 10.000+ persoane și-au descoperit deja profilul psihologic"
+
+Note to Claude Code: this links externally to the WordPress site for now. Do NOT attempt to rebuild the test logic in React — this is intentional.
