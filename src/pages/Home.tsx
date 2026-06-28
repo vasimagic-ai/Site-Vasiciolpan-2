@@ -53,10 +53,51 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   );
 }
 
+function AdaptCard() {
+  return (
+    <section className="adapt-section">
+      <div className="adapt-card">
+        <div className="adapt-card-header">
+          <h2 className="adapt-card-title">🧠 Testul ADAPT</h2>
+          <span className="adapt-badge">⭐ Gratuit</span>
+        </div>
+
+        <p className="adapt-description">
+          Descoperă-ți stilul de personalitate bazat pe Analiza Tranzacțională.
+          Primește o analiză detaliată a profilului tău psihologic și
+          recomandări personalizate pentru dezvoltare.
+        </p>
+
+        <ul className="adapt-stats">
+          <li>✓ 40 de întrebări</li>
+          <li>✓ Analiză completă</li>
+          <li>✓ Rezultate instant</li>
+          <li>✓ 100% Gratuit</li>
+        </ul>
+
+        <a
+          href="https://vasiciolpan.coach/adapt/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="adapt-cta-btn"
+        >
+          Începe Testul ADAPT Acum
+        </a>
+
+        <p className="adapt-social-proof">
+          Peste 10.000+ persoane și-au descoperit deja profilul psihologic
+        </p>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   return (
     <main>
       {/* other sections */}
+
+      <AdaptCard />
 
       <section className="testimonials-section">
         <h2 className="testimonials-title">Ce spun clienții mei</h2>
