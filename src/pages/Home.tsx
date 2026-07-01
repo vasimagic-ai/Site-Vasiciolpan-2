@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface Testimonial {
   name: string;
@@ -75,14 +76,9 @@ function AdaptCard() {
           <li>✓ 100% Gratuit</li>
         </ul>
 
-        <a
-          href="https://vasiciolpan.coach/adapt/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="adapt-cta-btn"
-        >
+        <Link to="/adapt" className="adapt-cta-btn">
           Începe Testul ADAPT Acum
-        </a>
+        </Link>
 
         <p className="adapt-social-proof">
           Peste 10.000+ persoane și-au descoperit deja profilul psihologic

@@ -7,6 +7,7 @@ import HeartMapping from "./pages/HeartMapping";
 import FAQ from "./pages/FAQ";
 import Oferte from "./pages/Oferte";
 import Contact from "./pages/Contact";
+import Adapt from "./pages/Adapt";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/oferte" element={<Oferte />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/adapt" element={<Adapt />} />
       </Routes>
     </BrowserRouter>
   );

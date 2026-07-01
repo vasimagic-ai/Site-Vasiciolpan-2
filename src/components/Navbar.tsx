@@ -6,6 +6,7 @@ const navLinks = [
   { label: "Despre", path: "/despre" },
   { label: "HeartMapping™", path: "/heartmapping" },
   { label: "FAQ", path: "/faq" },
+  { label: "Test ADAPT", path: "/adapt" },
   { label: "Oferte", path: "/oferte" },
   { label: "Contact", path: "/contact" },
 ];
