@@ -1,7 +1,3 @@
-import vasiPhoto from '../assets/images/vasi-ciolpan-photo.png'
-import diplomaImg from '../assets/images/diploma-vasile-ciolpan.jpeg'
-import icaImg from '../assets/images/ica-agile-vasi-ciolpan.png'
-
 const certifications = [
   'HeartMapping™ Certified Coach',
   'Metodologia ADAPT',
@@ -15,17 +11,11 @@ export default function Despre() {
     <main className="pt-20 pb-16 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          {/* Photo */}
+          {/* Photo placeholder */}
           <div className="flex justify-center">
-            <img
-              src={vasiPhoto}
-              alt="Vasi Ciolpan"
-              className="rounded-2xl object-cover max-w-sm w-full shadow-lg"
-              onError={(e) => {
-                const el = e.currentTarget
-                el.style.display = 'none'
-              }}
-            />
+            <div className="rounded-2xl bg-amber-100 max-w-sm w-full shadow-lg aspect-[3/4] flex items-center justify-center">
+              <span className="text-6xl">👤</span>
+            </div>
           </div>
 
           {/* Bio */}
@@ -72,21 +62,15 @@ export default function Despre() {
           <h2 className="text-2xl font-bold text-charcoal mb-8 text-center">Diplome și acreditări</h2>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
             <figure className="text-center">
-              <img
-                src={diplomaImg}
-                alt="Diplomă Vasile Ciolpan"
-                className="rounded-xl shadow max-w-xs w-full mx-auto"
-                onError={(e) => { e.currentTarget.style.display = 'none' }}
-              />
+              <div className="rounded-xl shadow max-w-xs w-full mx-auto bg-amber-50 border border-amber-200 h-48 flex items-center justify-center">
+                <span className="text-4xl">🎓</span>
+              </div>
               <figcaption className="text-sm text-stone-500 mt-2">Diplomă coaching – Vasile Ciolpan</figcaption>
             </figure>
             <figure className="text-center">
-              <img
-                src={icaImg}
-                alt="ICA Agile – Vasi Ciolpan"
-                className="rounded-xl shadow max-w-xs w-full mx-auto"
-                onError={(e) => { e.currentTarget.style.display = 'none' }}
-              />
+              <div className="rounded-xl shadow max-w-xs w-full mx-auto bg-purple-50 border border-purple-200 h-48 flex items-center justify-center">
+                <span className="text-4xl">🏅</span>
+              </div>
               <figcaption className="text-sm text-stone-500 mt-2">Coach acreditat ICA Agile</figcaption>
             </figure>
           </div>
